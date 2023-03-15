@@ -1,15 +1,10 @@
-import Head from "next/head";
-import { Button } from "@mui/material";
 import Layout from "@/layout/layout";
+import { Hero } from "@/components";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <Head>
-        <title>Main title</title>
-      </Head>
-
-      <Button>Click</Button>
+      <Hero />
     </Layout>
   );
 };
